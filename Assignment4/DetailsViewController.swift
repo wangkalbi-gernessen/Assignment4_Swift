@@ -67,8 +67,6 @@ class DetailsViewController: UIViewController {
         
         stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        stackView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 100).isActive = true
-        stackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 100).isActive = true
         stackView.heightAnchor.constraint(equalTo:view.heightAnchor, multiplier: 0.6).isActive = true
         stackView.widthAnchor.constraint(equalToConstant: 200).isActive = true
     }
